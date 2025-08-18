@@ -27,17 +27,14 @@ Este proyecto procesa datos de jugadas de la NFL (2009–2018) y genera hechos e
        - temporada_2013.pl
 
    - **Este contendrá hechos como:**
-
        - partido('2013-09-05', 'BAL', 'DEN', 27, 49).
        - anotacion(1, 'DEN', 'pase', '2013-09-05', 'BAL', 'DEN').
 
 2. Consultas en Prolog
 
-   Cargar los hechos y consultas en SWI-Prolog:
-
-   ?- [temporada_2013].
-
-   ?- [consultas].
+   - **Cargar los hechos y consultas en SWI-Prolog:**
+       - ?- [temporada_2013].
+       - ?- [consultas].
 
 ## Consultas disponibles
 1. Todos los equipos (local o visitante) que ganaron
@@ -66,6 +63,7 @@ Se pueden generar múltiples temporadas repitiendo la ejecución de temporada.py
 ## Autores
 
 Mariana Lara Vargas
+
 
 
 
