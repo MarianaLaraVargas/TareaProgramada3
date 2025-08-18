@@ -39,7 +39,7 @@ Este proyecto procesa datos de jugadas de la NFL (2009–2018) y genera hechos e
 ## Consultas disponibles
 1. **Todos los equipos (local o visitante) que ganaron**
 
-  ?- setof(Eq, ganador(Eq), Equipos).
+    ?- setof(Eq, ganador(Eq), Equipos).
 
 2. **Todos los equipos que ganaron por más de X puntos**
 
@@ -79,6 +79,7 @@ Se pueden generar múltiples temporadas repitiendo la ejecución de temporada.py
 ## Autores
 
 Mariana Lara Vargas
+
 
 
 
