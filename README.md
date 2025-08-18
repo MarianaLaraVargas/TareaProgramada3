@@ -24,11 +24,10 @@ Este proyecto procesa datos de jugadas de la NFL (2009–2018) y genera hechos e
 
    - **El programa pedirá el año de la temporada (ejemplo 2013), y generará un archivo:** temporada_2013.pl
 
-   Este contendrá hechos como:
+   - **Este contendrá hechos como:**
 
-   partido('2013-09-05', 'BAL', 'DEN', 27, 49).
-
-   anotacion(1, 'DEN', 'pase', '2013-09-05', 'BAL', 'DEN').
+       - partido('2013-09-05', 'BAL', 'DEN', 27, 49).
+       - anotacion(1, 'DEN', 'pase', '2013-09-05', 'BAL', 'DEN').
 
 2. Consultas en Prolog
 
@@ -65,4 +64,5 @@ Se pueden generar múltiples temporadas repitiendo la ejecución de temporada.py
 ## Autores
 
 Mariana Lara Vargas
+
 
