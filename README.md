@@ -39,35 +39,35 @@ Este proyecto procesa datos de jugadas de la NFL (2009–2018) y genera hechos e
 ## Consultas disponibles
 1. **Todos los equipos (local o visitante) que ganaron**
 
-?- setof(Eq, ganador(Eq), Equipos).
+  ?- setof(Eq, ganador(Eq), Equipos).
 
 2. **Todos los equipos que ganaron por más de X puntos**
 
-?- setof(Eq, ganador_margen(Eq, 10), Equipos).
+  ?- setof(Eq, ganador_margen(Eq, 10), Equipos).
 
 3. **Partidos donde hubo una anotación de cierto tipo**
 
-*Ejemplo: todos los partidos con field goal.*
+  *Ejemplo: todos los partidos con field goal.*
 
-?- setof((Fecha,V,L), partido_anotacion_tipo(Fecha,V,L,'gol_de_campo'), Partidos).
+  ?- setof((Fecha,V,L), partido_anotacion_tipo(Fecha,V,L,'gol_de_campo'), Partidos).
 
-Para cualquier touchdown (pase o corrida):
+  Para cualquier touchdown (pase o corrida):
 
-?- setof((Fecha,V,L), partido_con_touchdown(Fecha,V,L), Partidos).
+  ?- setof((Fecha,V,L), partido_con_touchdown(Fecha,V,L), Partidos).
 
 4. **Partidos donde hubo más de 1 field goal por cada equipo**
 
-?- setof((Fecha,V,L), partido_mas_de_un_field_goal(Fecha,V,L), Partidos).
+  ?- setof((Fecha,V,L), partido_mas_de_un_field_goal(Fecha,V,L), Partidos).
 
 5. **Partidos en que hubo safety**
 
-?- setof((Fecha,V,L), partido_con_safety(Fecha,V,L), Partidos).
+  ?- setof((Fecha,V,L), partido_con_safety(Fecha,V,L), Partidos).
 
 6. **Ganador (local o visitante) de un partido en una fecha específica**
-7. 
-*Ejemplo:*
 
-?- ganador_por_fecha('2013-09-05', Eq).
+  *Ejemplo:*
+
+  ?- ganador_por_fecha('2013-09-05', Eq).
 
 ## Notas
 El archivo CSV original es muy grande (GBs), por lo que el script procesa la información en chunks.
@@ -79,6 +79,7 @@ Se pueden generar múltiples temporadas repitiendo la ejecución de temporada.py
 ## Autores
 
 Mariana Lara Vargas
+
 
 
 
