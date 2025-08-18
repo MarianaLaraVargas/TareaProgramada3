@@ -20,9 +20,11 @@ Este proyecto procesa datos de jugadas de la NFL (2009–2018) y genera hechos e
 ## Uso del proyecto
 1. Generar hechos en Prolog
 
-   - **Ejecutar en consola:** python temporada.py
+   - **Ejecutar en consola:**
+       - python temporada.py
 
-   - **El programa pedirá el año de la temporada (ejemplo 2013), y generará un archivo:** temporada_2013.pl
+   - **El programa pedirá el año de la temporada (ejemplo 2013), y generará un archivo:**
+       - temporada_2013.pl
 
    - **Este contendrá hechos como:**
 
@@ -64,5 +66,6 @@ Se pueden generar múltiples temporadas repitiendo la ejecución de temporada.py
 ## Autores
 
 Mariana Lara Vargas
+
 
 
