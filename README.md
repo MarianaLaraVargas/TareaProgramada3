@@ -51,7 +51,7 @@ Este proyecto procesa datos de jugadas de la NFL (2009–2018) y genera hechos e
 
     *Ejemplo: todos los partidos con field goal.*
 
-     ?- setof((Fecha,V,L), partido_anotacion_tipo(Fecha,V,L,'gol_de_campo'), Partidos).
+    ?- setof((Fecha,V,L), partido_anotacion_tipo(Fecha,V,L,'gol_de_campo'), Partidos).
 
   Para cualquier touchdown (pase o corrida):
 
@@ -81,6 +81,7 @@ Se pueden generar múltiples temporadas repitiendo la ejecución de temporada.py
 ## Autores
 
 Mariana Lara Vargas
+
 
 
 
